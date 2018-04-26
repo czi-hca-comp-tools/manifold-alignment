@@ -16,4 +16,4 @@ Four examples of difficult "edge cases" that can be created by in silico manipul
 1. Rare dataset-specific cell type
 2. Shared but highly imbalanced cell types
 3. Very different dataset sizes
-4. Datasets sharing only a small subset of cells
+4. Highly distinct datasets sharing only a small subset of cells
