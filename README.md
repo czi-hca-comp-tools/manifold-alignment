@@ -1,6 +1,6 @@
 # manifold-alignment
 A repository for manifold applications of manifolds. 
-## Metric - Manifold Alighnment.ipynb
+## Metric - Manifold Alignment.ipynb
 A jupyter notebook beginning to explore metrics for evaluating how well the topology of the original datset was maintained. Two methods are used:
 
 1. KNN-Jaccard Similarity Metric: the k-nearest neighbors for each sample are determined amongst the pre- and post- alignment batches. The average (and standard deviation) Jaccard Similarity between a corrected and raw cell are calculated.
