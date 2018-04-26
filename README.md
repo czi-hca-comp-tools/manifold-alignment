@@ -17,3 +17,9 @@ Four examples of difficult "edge cases" that can be created by in silico manipul
 2. Shared but highly imbalanced cell types
 3. Very different dataset sizes
 4. Highly distinct datasets sharing only a small subset of cells
+
+## CrossEntropy
+This is a R function that measures how well the cells from different datasets are mixed together after performing a manifold alignment.
+A P value is generated that characterizes the extent of mixing, compared against a random background.
+Input is a data matrix (data.frame) consisting of alignment results returned by programs such as Seurat MultiCCA: row=cells, cols=(cell id, cluster_id_after_alignment, dataset_id) 
+
